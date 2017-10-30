@@ -16,6 +16,9 @@ public class MainActivity extends AppCompatActivity {
 
     private MediaPlayer audioPlayer;
 
+    private Handler myHandler = new Handler();
+    private SeekBar seekBar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
